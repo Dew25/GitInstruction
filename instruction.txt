@@ -1,4 +1,4 @@
-Необходимые команды git
+﻿Необходимые команды git
 1. Создание локального репозитория
 	git init
 2. Проверка состояния репозитория
@@ -32,5 +32,9 @@
 	git push -u origin master
 14. Как вытянуть изменения с удаленного репозитория в локальный
 	git pull origin master
+15. Как сделать клон ветки удаленного репозитория?
+	git fetch origin nameBranch
+	git checkout -b nameBranch origin/nameBranch
+
 	
 	
