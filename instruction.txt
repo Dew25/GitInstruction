@@ -1,4 +1,9 @@
-﻿Необходимые команды git
+﻿Источники, учебники:
+http://www.8host.com/blog/kratkij-spravochnik-po-git/
+https://git-scm.com/book/ru/v2
+https://githowto.com/ru
+
+Необходимые команды git
 1. Создание локального репозитория
 	git init
 2. Проверка состояния репозитория
@@ -15,7 +20,6 @@
 	echo "fileName" >> .gitignore,
 	echo "/FolderName >> .gitignore
 	
-	------ РАБОТА С ФАЙЛАМИ В ПАПКЕ РЕПОЗИТОРИЯ-------
 7. Добавление изменений в репозиторий
 	git add .
 8. Создание слепка состояния файлов в репозитории.
@@ -36,5 +40,15 @@
 	git fetch origin nameBranch
 	git checkout -b nameBranch origin/nameBranch
 
+	------ РАБОТА С КОММИТАМИ --------
+	
+16. Список коммитов:
+	git log - история коммитов.
+	q - выход из истории коммитов.
+17. Переход к коммиту:
+	git checkout <хэш коммита>
+17. Создание ветки с кодом коммита
+	git checkout -b myBranch <хэш коммита>
+	
 	
 	
